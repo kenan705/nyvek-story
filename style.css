@@ -3,8 +3,50 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
+    --cor-texto: #333333;
+    --cor-link: #1E90FF;
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: Arial, sans-serif;
+    color: var(--cor-texto);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--cor-texto);
+    margin: 0 0 1em;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+a {
+    color: var(--cor-link);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+footer {
+    background-color: var(--branco);
+    padding: 1em 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 0;
 }
