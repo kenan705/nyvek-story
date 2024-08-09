@@ -1,52 +1,22 @@
-("styles/header.css");
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
-    --cor-texto: #333333;
-    --cor-link: #1E90FF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    font-family: Arial, sans-serif;
-    color: var(--cor-texto);
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: var(--cor-texto);
-    margin: 0 0 1em;
-}
-
-p {
-    margin: 0 0 1em;
-}
-
-a {
-    color: var(--cor-link);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1em;
-}
-
-footer {
-    background-color: var(--branco);
-    padding: 1em 0;
-    text-align: center;
-    border-top: 1px solid #ddd;
-}
-
-footer p {
-    margin: 0;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
